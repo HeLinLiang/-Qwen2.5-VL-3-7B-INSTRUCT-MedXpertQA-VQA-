@@ -39,7 +39,7 @@ def validate_config():
     errors = []
     
     # 检查模型路径
-    if not os.path.exists(MODEL_PATH) or MODEL_PATH == "/home/asus/model/Qwen2.5-VL-3B-Instruct":
+    if not os.path.exists(MODEL_PATH) or MODEL_PATH == "//path/to/your/model/Qwen2.5-VL-3B-Instruct":
         errors.append(f"模型路径不存在或未配置: {MODEL_PATH}")
     
     # 检查数据路径（如果已配置）
@@ -64,10 +64,10 @@ def validate_config():
 def get_example_config():
     """获取示例配置（基于您可能的路径）"""
     return {
-        "model_path": "/home/asus/model/Qwen2.5-VL-3B-Instruct",
-        "data_path": "/home/asus/datasets/medvqa_data.jsonl", 
-        "image_folder": "/home/asus/datasets/medvqa_images",
-        "output_path": "/home/asus/results/medical_vqa_results.jsonl"
+        "model_path": "/path/to/your//model/Qwen2.5-VL-3B-Instruct",
+        "data_path": "/path/to/your/datasets/medvqa_data.jsonl", 
+        "image_folder": "/path/to/your/datasets/medvqa_images",
+        "output_path": "/path/to/your/results/medical_vqa_results.jsonl"
     }
 
 if __name__ == "__main__":
