@@ -8,20 +8,20 @@ import os
 
 # ========== 模型配置 ==========
 # QWEN2.5-VL-3B-INSTRUCT模型路径 - 请修改为您的实际路径
-#MODEL_PATH = "/home/asus/model/Qwen2.5-VL-3B-Instruct"
-MODEL_PATH = "/home/asus/model/Qwen2.5-VL-7B-Instruct"
+#MODEL_PATH = "/path/to/your/model/Qwen2.5-VL-3B-Instruct"
+MODEL_PATH = "/path/to/your/model/Qwen2.5-VL-7B-Instruct"
 
 # ========== 数据配置 ==========
 # 数据文件路径（JSON或JSONL格式）
-#DATA_PATH = "/home/asus/datasets/MedXpertQA/MM/test.jsonl"
-DATA_PATH = "/home/asus/datasets/MedXpertQA/MM/dev.jsonl"
+#DATA_PATH = "/path/to/your/datasets/MedXpertQA/MM/test.jsonl"
+DATA_PATH = "/path/to/your/datasets/MedXpertQA/MM/dev.jsonl"
 
 
 # 图像文件夹路径（包含所有医疗图像）
-IMAGE_FOLDER = "/home/asus/datasets/MedXpertQA/images"
+IMAGE_FOLDER = "//path/to/your/datasets/MedXpertQA/images"
 
 # 输出结果路径
-OUTPUT_PATH = "/home/asus/results/cursor_medical_vqa_results.jsonl"
+OUTPUT_PATH = "//path/to/your/results/cursor_medical_vqa_results.jsonl"
 
 # ========== 系统配置 ==========
 # 运行设备配置
